@@ -3,8 +3,8 @@
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
-  { message: "Enter your first Number", type: "number", name: "firstNumber" },
-  { message: "Enter your Second Number", type: "number", name: "secondNumber" },
+  { message: "Please Enter your first Number", type: "number", name: "firstNumber" },
+  { message: "Please Enter your Second Number", type: "number", name: "secondNumber" },
   { message: "Select One of the Operator to perform Operation",
 type:"list",
 name:"Operator",
@@ -23,3 +23,5 @@ if(answer.Operator==="Addition"){
 }else{
     console.log("Please select a valid Operator")
 }
+
+//I am very happy to share that, this is my 1st Simple Project titled "simple-cli-calculator", which i have published on GitHub.
